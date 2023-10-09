@@ -24,13 +24,14 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add("login", () => {
+Cypress.Commands.add("SignIn", () => {
   cy.visit("https://react-redux.realworld.io/#/login");
   cy.title().should("eq", "Conduit");
   cy.location("protocol").should("eq", "https:");
   cy.get("input[type='email']").type("test-cypress@test.com");
   cy.get("input[type='password']").type("test123");
   cy.get(".btn").contains("Sign in").should("exist").click();
+  cy.contains("Your Feed", { timeout: 10000 }).should("be.visible");
 });
 
 Cypress.on("uncaught:exception", (err, runnable) => {

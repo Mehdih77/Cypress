@@ -1,17 +1,6 @@
 describe("New format of test-two", () => {
-  beforeEach(() => {
-    cy.visit("https://react-redux.realworld.io/#/login");
-    cy.title().should("eq", "Conduit");
-    cy.location("protocol").should("eq", "https:");
-    cy.get("form").within(($form) => {
-      cy.get("input[type='email']").type("test-cypress@test.com");
-      cy.get("input[type='password']").type("test123");
-      cy.root().submit(); // use it when button has type="submit"
-      // cy.get(".btn").contains("Sign in").should("exist").click();
-    });
-  });
-  it("Signin", () => {
-    cy.contains("Your Feed", { timeout: 10000 }).should("be.visible");
+  before(() => {
+    cy.SignIn();
   });
   it.skip("Create a post", () => {
     cy.get("ul.navbar-nav").children().contains("New Post").click();

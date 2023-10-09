@@ -1,10 +1,10 @@
 describe("Create and mark-unmark as favorite", () => {
   beforeEach(() => {
-    cy.login();
+    cy.SignIn();
   });
-  it("Signin", () => {
-    cy.contains("Your Feed", { timeout: 10000 }).should("be.visible");
-  });
+  // it("Signin", () => {
+  //   cy.contains("Your Feed", { timeout: 10000 }).should("be.visible");
+  // });
   it("Create a post", () => {
     cy.contains("New Post").click();
     cy.hash().should("include", "#/editor");
