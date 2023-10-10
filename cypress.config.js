@@ -7,16 +7,16 @@ module.exports = defineConfig({
     },
     // testIsolation: false,
     baseUrl: "https://react-redux.realworld.io",
-    reporter: "cypress-multi-reporters",
-    reporterOptions: {
-      reporterEnabled: "mochawesome",
-      mochawesomeReporterOptions: {
-        reportDir: "cypress/reports/mocha",
-        quite: true,
-        overwrite: false,
-        html: false,
-        json: true,
-      },
-    },
+    // reporter: "cypress-multi-reporters",
+    // reporterOptions: {
+    //   reporterEnabled: "mochawesome",
+    //   mochawesomeReporterOptions: {
+    //     reportDir: "cypress/reports/mocha",
+    //     quite: true,
+    //     overwrite: false,
+    //     html: false,
+    //     json: true,
+    //   },
+    // },
   },
 });
