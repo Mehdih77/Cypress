@@ -24,6 +24,8 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
+import "cypress-file-upload"
+
 Cypress.Commands.add("SignIn", () => {
   cy.visit("/#/login");
   cy.title().should("eq", "Conduit");

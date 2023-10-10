@@ -5,6 +5,10 @@
 
 ### ⚡️ Command Lines
 
+**Open Cypress App:**
+
+``` npx cypress open ```
+
 **Run all spec(cy) files in the project:**
 
 ``` npx cypress run ```
