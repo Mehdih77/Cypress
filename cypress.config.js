@@ -5,7 +5,18 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: "https://react-redux.realworld.io",
     // testIsolation: false,
+    baseUrl: "https://react-redux.realworld.io",
+    reporter: "cypress-multi-reporters",
+    reporterOptions: {
+      reporterEnabled: "mochawesome",
+      mochawesomeReporterOptions: {
+        reportDir: "cypress/reports/mocha",
+        quite: true,
+        overwrite: false,
+        html: false,
+        json: true,
+      },
+    },
   },
 });
