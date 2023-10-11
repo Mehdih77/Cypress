@@ -65,6 +65,8 @@ https://github.com/cypress-io/cypress-component-testing-apps/tree/main/react-nex
 
 https://github.com/bonnie/udemy-NEXTJS-TESTING
 
+https://github.com/bahmutov/sudoku
+
 https://docs.cypress.io/examples/media/courses-media
 
 https://www.youtube.com/playlist?list=PLzDWIPKHyNmK9NX9_ng2IdrkEr8L4WwB0
