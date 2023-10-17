@@ -59,6 +59,10 @@ https://github.com/bushralam/Cypress
 
 https://github.com/cypress-io/cypress-realworld-app
 
+https://github.com/cypress-io/cypress-example-recipes
+
+https://docs.cypress.io/examples/recipes#Blogs
+
 https://github.com/cypress-io/cypress-example-kitchensink/tree/master/cypress/e2e/2-advanced-examples
 
 https://github.com/cypress-io/cypress-component-testing-apps/tree/main/react-next13-ts
