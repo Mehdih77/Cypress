@@ -55,6 +55,8 @@ Here are some related and useful links
 
 [Testing a React Todo App](https://www.youtube.com/playlist?list=PL8GlT7H3xOcJbXNVnM6lTT3Fec8dikotY)
 
+[testing-redux-store](https://www.cypress.io/blog/2018/11/14/testing-redux-store)
+
 https://github.com/bushralam/Cypress
 
 https://github.com/cypress-io/cypress-realworld-app
