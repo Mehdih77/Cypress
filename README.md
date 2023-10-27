@@ -57,6 +57,8 @@ Here are some related and useful links
 
 [testing-redux-store](https://www.cypress.io/blog/2018/11/14/testing-redux-store)
 
+[Udemy – Cypress: Web Automation Testing from Zero to Hero](https://downloadly.ir/elearning/video-tutorials/cypress-web-automation-testing-from-zero-to-hero-3/)
+
 https://github.com/bushralam/Cypress
 
 https://github.com/cypress-io/cypress-realworld-app
