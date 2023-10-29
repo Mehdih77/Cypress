@@ -70,9 +70,17 @@ Here are some related and useful links
 
 [Testing a React Todo App](https://www.youtube.com/playlist?list=PL8GlT7H3xOcJbXNVnM6lTT3Fec8dikotY)
 
+[testing-redux-store](https://www.cypress.io/blog/2018/11/14/testing-redux-store)
+
+[Udemy – Cypress: Web Automation Testing from Zero to Hero](https://downloadly.ir/elearning/video-tutorials/cypress-web-automation-testing-from-zero-to-hero-3/)
+
 https://github.com/bushralam/Cypress
 
 https://github.com/cypress-io/cypress-realworld-app
+
+https://github.com/cypress-io/cypress-example-recipes
+
+https://docs.cypress.io/examples/recipes#Blogs
 
 https://github.com/cypress-io/cypress-example-kitchensink/tree/master/cypress/e2e/2-advanced-examples
 
