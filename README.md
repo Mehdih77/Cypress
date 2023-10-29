@@ -42,9 +42,7 @@ you can add `only` or `skip` to **it** in test
 
 `it.skip("" , () => {})`
 
-### Related
-
-Cypress.env()
+### Cypress.env()
 
 cypress.env.json:
 
