@@ -23,5 +23,11 @@ module.exports = defineConfig({
     email: "test-cypress99@test.com",
     password: "test123",
   },
+  // retries: {
+  //   runMode: 2,
+  //   openMode: 1,
+  // },
 });
 //! the env data in "cypress.env.json" file, will overwrite the env in here
+
+// retries: set retry test times ~~~ also can set for each particular test
