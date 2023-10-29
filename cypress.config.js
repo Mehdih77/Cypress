@@ -19,4 +19,9 @@ module.exports = defineConfig({
     //   },
     // },
   },
+  env: {
+    email: "test-cypress99@test.com",
+    password: "test123",
+  },
 });
+//! the env data in "cypress.env.json" file, will overwrite the env in here

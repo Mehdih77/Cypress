@@ -1,4 +1,3 @@
-
 # Document
 
 [Cypress Docs](https://docs.cypress.io/guides/overview/why-cypress)
@@ -7,40 +6,56 @@
 
 **Open Cypress App:**
 
-``` npx cypress open ```
+`npx cypress open`
 
 **Run all spec(cy) files in the project:**
 
-``` npx cypress run ```
+`npx cypress run`
 
 or can change scripts:
+
 ```
   "scripts": {
     "test": "cypress run"
   }
 ```
-then use: ``` npm run test ```
+
+then use: `npm run test`
 
 **Run all spec(cy) files in a folder:**
 
-``` npx cypress run --spec "cypress/e2e/**/*" ```
+`npx cypress run --spec "cypress/e2e/**/*"`
 
 **Run one spec(cy) file:**
 
-``` npx cypress run --spec "cypress/e2e/test-one.cy.js" ```
+`npx cypress run --spec "cypress/e2e/test-one.cy.js"`
 
 **Run one spec(cy) file in a specific browser:**
 
-``` npx cypress run --spec "cypress/e2e/test-one.cy.js" --browser chrome ```
+`npx cypress run --spec "cypress/e2e/test-one.cy.js" --browser chrome`
 
 **Run or Skip a specific test in a spec(cy) file:**
 
-you can add ```only``` or ```skip``` to **it** in test
+you can add `only` or `skip` to **it** in test
 
-``` it.only("" , () => {}) ```
+`it.only("" , () => {})`
 
-``` it.skip("" , () => {}) ```
+`it.skip("" , () => {})`
 
+### Related
+
+Cypress.env()
+
+cypress.env.json:
+
+```
+  {
+    "email": "email@test.com",
+    "password": "test123"
+  }
+```
+
+for using: `Cypress.env("email")`
 
 
 ## Related
